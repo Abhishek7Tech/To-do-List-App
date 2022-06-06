@@ -1,0 +1,42 @@
+.del{
+    position:fixed;
+    text-align: center;
+    z-index: 10;
+    margin-left: 36%;
+    margin-top: auto;
+    padding-top: 1rem;
+    display: block;
+   top: 0;
+   left: 0;
+   right:0;
+   bottom: 35%;
+    background-color: rgb(21, 43, 61);
+    width: 30%;
+    height: 25%;
+    border-radius: 1rem;
+    border: 5px solid red;
+}
+
+.delOn{
+    opacity: 0;
+}
+
+.del h3 {
+    color: white;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.del button {
+    background-color: rgb(238, 91, 91);
+      margin-right: 8%;
+      margin-bottom: 1rem;
+      animation: ease-in;
+      width: 3rem;
+}
+.del button:hover {
+    background-color: rgb(238, 91, 91);
+    transition: all ease-in-out 1s;
+    width: 4rem;
+    
+};

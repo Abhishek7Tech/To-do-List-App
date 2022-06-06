@@ -1,0 +1,29 @@
+.date{
+    padding-top: 1rem;
+    padding-right: 4rem;
+    background-color: rgb(21, 43, 61);
+    color: rgb(255, 255, 255);
+    margin-inline-start: auto;
+    border-radius: 1rem;
+}
+
+.dates{
+    background-color: rgb(21, 43, 61);
+}
+
+
+
+@media screen and (max-width:620px){
+ 
+    .date  {
+      font-size: 1rem;
+      padding-top: 1rem;
+    
+    }
+}    
+
+@media screen and (max-width:500px){
+    .date{
+        padding-right: 2rem;
+    }
+}
