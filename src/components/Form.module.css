@@ -120,7 +120,7 @@
     
 }
 
-@media screen and (max-width:620px){
+@media screen and (max-width:700px){
     .section {
         width: 80%;
         margin-left: 10%;
@@ -154,5 +154,49 @@
         margin-left: 3%;
     
       }
+
+      .section h3 {
+          font-size: larger;
+          margin-top: 0.1rem;
+      }
+
+      
+    .form label {
+        font-size: large;
+    }
+
+    .form input {
+        width: 60%;
+        height: 1.3rem;
+    }
+
+    .btn button{
+        width: 20%;
+    }
+
+    
+
+}
+
+
+@media screen and (max-width:360px){
+  
+    .section h3 {
+        font-size: larger;
+        margin-top: 0.1rem;
+    }
+
+    .form label {
+        font-size: medium;
+    }
+
+    .form input {
+        width: 60%;
+        height: 10%;
+    }
+
+    .btn button{
+        width: 20%;
+    }
 
 }

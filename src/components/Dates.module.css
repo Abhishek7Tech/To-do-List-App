@@ -17,13 +17,29 @@
  
     .date  {
       font-size: 1rem;
-      padding-top: 1rem;
+      padding-top: 0.25rem;
     
     }
 }    
 
 @media screen and (max-width:500px){
     .date{
-        padding-right: 2rem;
+        padding-top: 0.2%;
+    }
+
+    .dates{
+        font-size: larger;
+    }
+}
+
+
+@media screen and (max-width:360px){
+    
+    .dates{
+        font-size: medium;
+        /* padding-top: 0rem; */
+    }
+    .date{
+        padding-top: 0.1rem;
     }
 }

@@ -12,7 +12,7 @@
    bottom: 35%;
     background-color: rgb(21, 43, 61);
     width: 30%;
-    height: 25%;
+    height: 8rem;
     border-radius: 1rem;
     border: 5px solid red;
 }
@@ -24,12 +24,12 @@
 .del h3 {
     color: white;
     margin-top: 1rem;
-    padding: 1rem;
+    padding: 0.25rem;
 }
 
 .del button {
     background-color: rgb(238, 91, 91);
-      margin-right: 8%;
+      margin-right: 5%;
       margin-bottom: 1rem;
       animation: ease-in;
       width: 3rem;
@@ -40,3 +40,17 @@
     width: 4rem;
     
 };
+
+@media screen and (max-width:1000px) {
+    .del{
+        width: 40%; 
+    }
+}
+
+@media screen and (max-width:700px){
+    .del{
+        width: 50%;
+    margin-left: 25%;
+      height: 8rem;
+    }
+}

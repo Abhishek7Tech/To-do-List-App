@@ -16,7 +16,6 @@
  
 .heding  {
   font-size: 1.5rem;
-  padding-top: 1.2rem;
 
 }
 
@@ -28,6 +27,22 @@
     
 .heding {
     padding-left: 2rem;
+    font-size: larger;
+    padding-top: 0.25rem;
 }
 
 }
+
+@media screen and (max-width:360px){
+    
+    .header {
+      height: 3rem;
+
+    }
+    
+    .heding{
+        font-size: medium;
+        padding-top: 0.25rem;
+
+    }
+    }

@@ -57,7 +57,7 @@ function TaskForm(){
           </div>
 
           <div className = {styles.btn}>
-          <button type = 'submit' onClick = {btnHandler}> Add </button>  
+          <button  type = 'submit' onClick = {btnHandler}> Add </button>  
           </div>
       
 

@@ -97,13 +97,16 @@ section button {
 .comDisabled{
     opacity: 0;
     cursor:default;
+    display: none;
+    width: 0rem;
+    height: 0rem;
     
     /* visibility: hidden; */
 }
 .com:hover{
     background-color: aqua;
     width: 6rem;
-    height: 2rem;
+    /* height: 2rem; */
     transition:ease-in-out 0.3s;
 }
 
@@ -137,13 +140,14 @@ section button {
 }
 
 @media screen and (max-width:1000px) {
+    
     .section{
         margin-left: 19%;
         margin-bottom: 1rem;
         width: 60%;
     }
     .completeSection{
-        /* margin-top: 1rem; */
+        margin-top: 1rem;
         margin-left: 19%;
         text-align: center;
         width: 60%;
@@ -151,7 +155,7 @@ section button {
     }
 }
 
-@media screen and (max-width:850px) {
+@media screen and (max-width:870px) {
     .div{
         margin-top: 32%;
       
@@ -171,24 +175,25 @@ section button {
         height: 1.5rem;
     }
 }
-
-@media screen and (max-width:850px){
-    .div{
-        margin-top: 36%;
-      
+ 
+/* @media screen and (max-width:700px){
+    .section{
+        margin-left: 8%;
+        margin-bottom: 1rem;
+        width: 80%;
     }
 
-}
+} */
 
-@media screen and (max-width:850px){
+/* @media screen and (max-width:850px){
     .div{
         margin-top: 38%;
       
     }
 
-}
+}  */
 
-@media screen and (max-width:620px){
+@media screen and (max-width:700px){
 
     .section{
         margin-left: 8%;
@@ -196,7 +201,7 @@ section button {
         width: 80%;
     }
     .completeSection{
-        /* margin-top: 1rem; */
+        margin-top: 1rem;
         margin-left: 8%;
         text-align: center;
         width: 80%;
@@ -205,6 +210,13 @@ section button {
     .div{
         margin-top: 40%;
       
+    }
+
+    section button{
+        margin-left: 4%;
+        font-size:medium ;
+        margin-bottom: 0.8rem;
+        height: 2rem;
     }
 
 }
@@ -216,22 +228,17 @@ section button {
     }
 
     
-    section button{
-        margin-left: 4%;
-        font-size:medium ;
-        margin-bottom: 0.8rem;
-        height: 2rem;
-    }
+ 
 }
 
-@media screen and (max-width:620px){
+/* @media screen and (max-width:620px){
     .div{
         margin-top: 48%;
       
     }
-}
+} */
 
-@media screen and (max-width:500px){
+@media screen and (max-width:520px){
     .div{
         margin-top: 50%;
       
@@ -245,17 +252,25 @@ section button {
       
     }
 
+    .heder h3{
+        font-size: larger;
+        margin-top: 0.5rem;
+    }
+
+    .task h2 {
+        margin-top: 0.8rem;
+    }
+
     .section{
         margin-left: 2%;
         margin-bottom: 1rem;
         width: 90%;
     }
     .completeSection{
-        /* margin-top: 1rem; */
         margin-left: 2%;
         text-align: center;
         width: 90%;
-        height: 10rem;    
+        /* height: 10rem;     */
     }
 
     section button{
@@ -282,4 +297,9 @@ section button {
         margin-top: 68%;
       
     }
+
+    .heder h3 {
+        font-size: medium;
+    }
+   
 }
